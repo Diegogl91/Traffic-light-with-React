@@ -1,13 +1,50 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.contenedor{
+    margin:50px;
+}
+.traffic-light{
+    background-color: black;
+    display: inline-block;
+    border-radius: 5px;
+    
+}
+#poste{
+    background-color: black;
+    display: block;
+    width: 10px;
+    height: 50px;
+    position: relative;
+    left: 25px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.red{
+    border-radius: 50%;
+    border: red;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
 
-*/
+}
+#yellow{
+    border-radius: 50%;
+    border:yellow;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+#green{
+    border-radius: 50%;
+    border: green;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.glow{
+    box-shadow: 0 0 60px white;
+}
+
